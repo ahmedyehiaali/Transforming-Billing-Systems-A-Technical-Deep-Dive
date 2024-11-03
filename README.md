@@ -10,7 +10,7 @@ The billing transformation initiative aimed to revamp the billing processes acro
 ## Task
 The overarching task was to transform a fragmented billing system into a cohesive, efficient platform while addressing historical issues, stakeholder concerns, and technical challenges.
 
-## Action
+## Actions
 
 ### Initiation Phase
 
