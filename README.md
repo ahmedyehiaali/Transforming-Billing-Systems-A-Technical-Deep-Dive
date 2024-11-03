@@ -52,6 +52,36 @@ The execution phase began with an extensive data audit, cleaning, and transforma
 #### Green-Blue Deployment Strategy
 To minimize customer impact during the transition, a green-blue deployment strategy was implemented. Load balancers were configured to distribute customer traffic, enabling real-time comparison of performance metrics and error rates.
 
+#### Parallel Run Testing
+
+The **Parallel Run** allowed us to operate both legacy and new billing systems simultaneously to validate accuracy, performance, and stability without disrupting live operations.
+
+##### Objectives
+- **Data Integrity**: Ensure accurate data transfer and billing consistency.
+- **Performance**: Meet or exceed the processing speed of the legacy system.
+- **Continuity**: Identify and resolve any discrepancies in real-time.
+
+![Parallel Run](https://github.com/user-attachments/assets/3ff6e858-e1f9-4508-a18d-56406fa6b91c)
+
+##### Technical Setup
+1. **Data Sync**: Used ETL jobs and API integration to enable real-time data mirroring between systems.
+2. **Load Balancing**: Split initial traffic (10%) to the new system to test stability, scaling up as performance held.
+3. **Validation Scripts**: Automated scripts compared billing statements and flagged any discrepancies.
+4. **Error Logging**: Enabled detailed logging for issue tracing, analyzed with Splunk.
+
+##### Key Metrics
+- **Billing Accuracy**: Invoices matched within a 0.01% error margin.
+- **Processing Speed**: Maintained or exceeded legacy system performance.
+- **Resource Usage**: Optimized CPU and memory consumption.
+- **Error Rate**: Kept under 0.5%.
+
+##### Outcome
+- **Initial Findings**: Minor discrepancies, like tax calculation differences, were resolved through logic adjustments.
+- **Final Validation**: Achieved a 97.98% match rate in billing, with a 30% improvement in transaction processing time.
+
+The parallel run confirmed the new system’s reliability, paving the way for a smooth transition and enhanced customer satisfaction through consistent billing accuracy.
+
+
 ### Monitoring Phase
 
 #### Stakeholder Engagement and Change Management
