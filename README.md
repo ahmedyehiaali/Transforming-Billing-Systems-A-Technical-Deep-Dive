@@ -16,12 +16,13 @@ The overarching task was to transform a fragmented billing system into a cohesiv
 
 #### Comprehensive Analysis and Planning
 This phase began with an extensive stakeholder analysis, identifying key roles, responsibilities, and potential resistance points. A thorough review of previous project documentation was conducted to understand the technical and non-technical aspects of the existing system. This analysis informed the development of a Subject Matter Expert (SME) committee, comprising members from IT, finance, and operations, to address historical challenges effectively.
-![stakeholders analysis]([path_to_image](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/st%20analys.PNG))
+
+![stakeholders analysis](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/st%20analys.PNG?raw=true)
 
 #### Technology Stack Selection
 We chose a technology stack that included the new billing system for billing and data processing, integrated with our existing Customer Relationship Management (CRM) system. This required a careful analysis of system compatibility and the creation of a high-level architecture diagram to visualize interactions between systems.
 
-![High-level architecture diagram](path_to_image)
+![HL Architecture Diagram](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/HL%20ar.PNG?raw=true)
 
 *Description: A diagram illustrating the interaction between the legacy billing system, the new billing system, CRM, middleware, and external stakeholders.*
 
@@ -38,6 +39,7 @@ A comprehensive migration strategy was developed, detailing the scope, timelines
 
 - **Risk Management Framework**: A robust risk management framework identified potential risks early and categorized them based on severity and impact, with contingency plans for critical risks.
 
+![Migration timelines](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/m%20tl.PNG?raw=true)
 ### Execution Phase
 
 #### Data Assessment and Transformation
@@ -56,6 +58,7 @@ To minimize customer impact during the transition, a green-blue deployment strat
 We employed agile methodologies, enabling quick adaptation to changes and ensuring stakeholder communication. Regular updates were provided through:
 
 - **Project Management Tools**: Platforms like JIRA and Confluence facilitated task tracking, documentation, and communication.
+![Communication plans](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/comm%20pl.PNG?raw=true)
 - **Performance Monitoring Tools**: Tools like Datadog and New Relic monitored system performance in real time post-migration.
 
 ### Rollout Phase and Cutover Planning
@@ -74,6 +77,8 @@ The cutover strategy included a detailed checklist for validating system readine
 Post-migration, the new billing system was continuously monitored to resolve any emerging issues. Feedback mechanisms were set up to optimize performance.
 
 - **Incident Response Plan**: A structured response plan ensured rapid issue resolution, minimizing service disruptions.
+
+![Post migration support](https://github.com/ahmedyehiaali/Transforming-Billing-Systems-A-Technical-Deep-Dive/blob/main/Post%20migration%20support.PNG?raw=true)
 
 ## Result
 The transformation yielded significant results within the first month post-migration:
